@@ -59,5 +59,5 @@ def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 
 @app.get("/generate/{prompt}")
-def read_item(prompt: int, q: Union[str, None] = None):
+def read_item(prompt: str, q: Union[str, None] = None):
     return generate_images(prompt)
