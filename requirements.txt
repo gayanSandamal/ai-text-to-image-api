@@ -1,9 +1,5 @@
 fastapi
 uvicorn
 Union
-diffusers
-invisible_watermark
-transformers
-accelerate
-safetensors
 torch
+diffusers
